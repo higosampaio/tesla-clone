@@ -62,7 +62,11 @@ const ItemText = styled.div`
     }
 `
 
-const Buttons = styled.div``
+const Buttons = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
 
 const ButtonGroup = styled.div`
     display: flex;
@@ -98,5 +102,6 @@ const RightButton = styled(LeftButton)`
 
 const DownArrow = styled.img`
     height: 40px;
+    cursor: pointer;
     animation: animateDown infinite 1.5s;
 `

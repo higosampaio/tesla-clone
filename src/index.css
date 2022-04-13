@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
-    color: #393c41;
+    font-family: 'Gotham SSm', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #171a20;
     margin: 0;
     padding: 0;
 }

@@ -11,9 +11,11 @@ function Header() {
 
     return (
         <Container>
-            <a>
-                <img src="/images/logo.svg" />
-            </a>
+            <LogoContainer>
+                <a>
+                    <img src="/images/logo.svg" />
+                </a>
+            </LogoContainer>
             <Menu>
                 {cars &&
                     cars.map((car, index) => (
@@ -24,7 +26,7 @@ function Header() {
             </Menu>
             <RightMenu>
                 <a href="#">Shop</a>
-                <a href="#">Tesla Account</a>
+                <a href="#">Account</a>
                 <CustomMenu onClick={() => setBurgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>
@@ -68,11 +70,11 @@ const Menu = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    gap: 1em;
 
     a {
-        font-weight: 600;
-        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 15px;
         padding: 0 10px;
         flex-wrap: nowrap;
     }
@@ -82,13 +84,22 @@ const Menu = styled.div`
     }
 `
 
+const LogoContainer = styled.div`
+    width: 100px;
+
+    img {
+        width: 100%;
+    }
+`
+
 const RightMenu = styled.div`
     display: flex;
     align-items: center;
+    gap: 1em;
 
     a {
-        font-weight: 600;
-        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 15px;
         margin-right: 10px;
     }
 `
@@ -115,11 +126,12 @@ const BurgerNav = styled.div`
     transition: transform 0.2s;
 
     li {
-        padding: 15px 0;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 0.8em 1em;
 
         a {
+            color: #393c41;
             font-weight: 600;
+            font-size: 15px;
         }
     }
 `
@@ -127,4 +139,5 @@ const BurgerNav = styled.div`
 const CustomClose = styled(CloseIcon)`
     cursor: pointer;
     align-self: end;
+    margin-bottom: 1em;
 `

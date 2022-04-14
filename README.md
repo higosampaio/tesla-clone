@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="public/images/favicon.ico" />
+
+<br>
+
 # Tesla Clone
 
 <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />

@@ -12,16 +12,37 @@ A short project based in Tesla website.
 
 [Preview](#preview) •
 [Setup](#setup) •
-[Author](#author)
+[Author](#author) •
+[License](#license)
 
 </div>
 
 ## Preview
 
+<div align="center">
+<img src="preview.png" />
+</div>
+
 ## Setup
+
+### Installation
+
+```js
+yarn install
+```
+
+### Run project
+
+```js
+yarn start
+```
 
 ## Author
 
 | [![Higo Sampaio](https://pt.gravatar.com/userimage/220099710/e4a08ac6c48dbc616d75706359689618.png)](https://github.com/higosampaio) |
 | ----------------------------------------------------------------------------------------------------------------------------------- |
 | [Higo Sampaio](https://github.com/higosampaio)<br>@Compass.uol                                                                      |
+
+## License
+
+...

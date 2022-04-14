@@ -1,6 +1,6 @@
 <div align="center">
 
-<img style="width: 100px;" src="public/images/red-logo.svg" />
+<img src="public/images/favicon.ico" />
 
 # Tesla Clone
 

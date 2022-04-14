@@ -1,6 +1,7 @@
 {
     "name": "tesla-clone",
     "version": "0.1.0",
+    "author": "Higo Sampaio",
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.12.4",

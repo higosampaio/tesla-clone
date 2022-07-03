@@ -42,7 +42,3 @@ yarn start
 | [![Higo Sampaio](https://pt.gravatar.com/userimage/220099710/e4a08ac6c48dbc616d75706359689618.png)](https://github.com/higosampaio) |
 | ----------------------------------------------------------------------------------------------------------------------------------- |
 | [Higo Sampaio](https://github.com/higosampaio) |
-
-## License
-
-...
